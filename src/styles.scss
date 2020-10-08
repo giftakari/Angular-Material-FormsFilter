@@ -1,0 +1,99 @@
+@import '~@angular/material/prebuilt-themes/indigo-pink.css';
+html{
+  background-color: gold;
+}
+
+body{
+  border-left:5px solid gold;
+  border-right:5px solid gold;
+}
+body {
+  font-family: Roboto, Arial, sans-serif;
+  margin: 0;
+}
+.basic-container {
+  padding: 30px;
+}
+.version-info {
+  font-size: 8pt;
+  float: right;
+  margin: 8px;
+}
+table{
+  box-shadow: rgb(127,90,0) -10px -10px 15px;
+  
+
+}
+
+th{
+  font-size: 150%;
+  font-weight: bold;
+  text-transform: uppercase;
+ 
+  color: rgb(150, 187, 60);
+   text-shadow: black -1px -1px 2px;
+   
+ 
+  
+  
+}
+td{
+  color: rgb(150, 187, 60);
+  text-shadow: black -1px -1px 2px;
+  
+  
+  
+}
+
+::ng-deep .mat-form-field {
+    .mat-input-element {
+        color: slategray;
+    }
+    .mat-form-field-label {
+        color: slategray;
+    }
+    .mat-form-field-underline {
+        background-color: slategray;
+    }
+    .mat-form-field-ripple {
+        background-color: slategray;
+    }
+    .mat-form-field-required-marker {
+        color: slategray;
+    }
+}
+::ng-deep .mat-form-field.mat-focused {
+    .mat-form-field-label {
+        color: #ff884d;
+    }
+    .mat-form-field-ripple {
+        background-color: #ff884d;
+    }
+    .mat-form-field-required-marker {
+        color: #ff884d;
+    }
+    .mat-input-element {
+        color: #ff884d;
+    }
+}
+
+::ng-deep .mat-form-field.mat-form-field-invalid {
+    .mat-input-element {
+        color: #ff33cc;
+    }
+    .mat-form-field-label {
+        color: #ff33cc;
+        .mat-form-field-required-marker {
+            color: #ff33cc;
+        }
+    }
+    .mat-form-field-ripple {
+        background-color: #ff33cc;
+    }
+}
+
+
+
+/**  Copyright 2020 Google LLC. All Rights Reserved.
+    Use of this source code is governed by an MIT-style license that
+    can be found in the LICENSE file at http://angular.io/license */
